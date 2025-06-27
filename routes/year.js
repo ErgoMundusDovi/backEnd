@@ -3,9 +3,8 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', (req, res,)=>{
-    const date = new Date()
-    let year= date.getFullYear()
-  res.json(year);
+    
+  res.json({year: "2025"});
 });
 
 
